@@ -27,7 +27,8 @@ Clone Priority Policy Rule:
 ```
 ./clonepolicyrule.py -SP "Global QoS" -SR "VoIP and Meeting Apps" -DP "MediaQoS" -DR voip -T QOS
 ```
-
+Help Text:
+```angular2
 SJCMAC42VVH03Q:clonepolicyrule tanushreekamath$ ./clonepolicyrule.py -h
 usage: clonepolicyrule.py [-h] [--controller CONTROLLER] [--email EMAIL]
                           [--pass PASS] [--type TYPE] [--srcpolicy SRCPOLICY]
@@ -68,6 +69,7 @@ Policy Set & Rule Specific Information:
                         Destination Policy Rule. This new rule will be created
                         in the destination policy set
 SJCMAC42VVH03Q:clonepolicyrule tanushreekamath$ 
+```
 
 #### Version
 | Version | Build | Changes |
